@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/cardWidth"
+        android:layout_height="@dimen/cardHeight"
+        android:layout_marginStart="@dimen/cardMargin"
+        android:layout_marginTop="@dimen/cardMargin"
+        android:layout_marginEnd="@dimen/cardMargin"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/CardPaddingTop"
+        app:cardCornerRadius="@dimen/cardRadius"
+        android:background="@drawable/layout_bg"
+
+        >
+
+            
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                app:cardCornerRadius="@dimen/imageRadius"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/imageMargin"
+                android:layout_marginTop="@dimen/imageMargin"
+                android:layout_marginEnd="@dimen/imageMargin"
+                android:layout_marginBottom="@dimen/imageMargin"
+
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="start"
+                android:text="@string/ahmed_hassan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textNameSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/engineer"
+                android:textColor="@color/textJobColor"
+                android:textSize="@dimen/textJobSize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                >
+
+                <ImageView
+                    android:layout_width="@dimen/locationIconWidth"
+                    android:layout_height="@dimen/locationIconHeight"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/location_icon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/uk"
+                    android:textColor="@color/textCountryColor"
+                    android:textSize="@dimen/textCountrySize" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textReviewsSize"
+                android:layout_gravity="start"
+                android:text="@string/_150_reviewsNumber"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/textReviewsColor" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_4_5Rating"
+                android:textColor="@color/black"
+                android:layout_marginEnd="2dp"
+                android:textSize="@dimen/textRatingSize">
+
+            </TextView>
+            <ImageView
+                android:layout_width="@dimen/ratingIconWidth"
+                android:layout_height="@dimen/ratingIconHeight"
+                android:layout_gravity="center"
+                android:src="@mipmap/fav"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+        </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/time_bg"
+                android:text="@string/_3_hrTime"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textTimeSize" />
+
+            <TextView
+                android:layout_width="44dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="42dp"
+                android:gravity="center"
+                android:text="@string/russianCity"
+                android:textColor="@color/textCityColor"
+                android:textSize="@dimen/textCitySize"
+                />
+            <TextView
+                android:layout_width="61dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="42dp"
+                android:layout_gravity="start"
+                android:text="@string/_5_days_agoTime"
+                android:textColor="@color/textTimeAgoColor"
+                android:textSize="@dimen/textTimeAgoSize"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

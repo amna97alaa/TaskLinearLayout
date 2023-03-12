@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardWidth">328dp</dimen>
+    <dimen name="cardHeight">117dp</dimen>
+    <dimen name="cardMargin">16dp</dimen>
+    <dimen name="CardPaddingTop">12dp</dimen>
+    <dimen name="cardRadius">8dp</dimen>
+    <dimen name="imageWidth">93dp</dimen>
+    <dimen name="imageHeight">93dp</dimen>
+    <dimen name="imageRadius">8dp</dimen>
+    <dimen name="imageMargin">12dp</dimen>
+    <dimen name="textNameSize">16sp</dimen>
+    <dimen name="textJobSize">12sp</dimen>
+    <dimen name="locationIconWidth">10dp</dimen>
+    <dimen name="locationIconHeight">12dp</dimen>
+    <dimen name="textCountrySize">13sp</dimen>
+    <dimen name="textReviewsSize">12sp</dimen>
+    <dimen name="textRatingSize">12sp</dimen>
+    <dimen name="ratingIconWidth">10dp</dimen>
+    <dimen name="ratingIconHeight">10dp</dimen>
+    <dimen name="textTimeSize">12sp</dimen>
+    <dimen name="textCitySize">12sp</dimen>
+    <dimen name="textTimeAgoSize">10sp</dimen>
+</resources>
